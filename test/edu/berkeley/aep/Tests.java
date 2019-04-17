@@ -7,7 +7,11 @@ import static org.junit.Assert.assertEquals;
 public class Tests {
 
     @Test
-    public void FirstTest() {
-        assertEquals(XXX, YYY);
+    public void rockShouldWinOverScissors() {
+        var rock = new Player(Rock);
+        var scissors = new Player(Scissors);
+
+        var bester = new Bester(rock, scissors);
+        assertEquals(rock, bester.best);
     }
 }

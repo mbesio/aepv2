@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/ArithmeticQuantity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Chance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/ScaledQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/ChanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/RectangleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/SquareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,21 +17,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java">
+        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -75,9 +65,10 @@
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/AritmeticQuantity.java" />
         <option value="$PROJECT_DIR$/test/edu/berkeley/aep/QuantityTest.java" />
-        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/ScaledQuantity.java" />
+        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" />
       </list>
     </option>
   </component>
@@ -134,7 +125,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555538079151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555539126168" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -158,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="JUnit.Tests.rockShouldWinOverScissors">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -183,7 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.oneHundredCelsiusShouldEqual212F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.rockShouldWinOverScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -193,7 +184,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="oneHundredCelsiusShouldEqual212F" />
+      <option name="METHOD_NAME" value="rockShouldWinOverScissors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,18 +241,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.Tests.oneHundredCelsiusShouldEqual212F" />
       <item itemvalue="JUnit.Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
       <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
       <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
+      <item itemvalue="JUnit.Tests.rockShouldWinOverScissors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.rockShouldWinOverScissors" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
         <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
         <item itemvalue="JUnit.Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
-        <item itemvalue="JUnit.Tests.oneHundredCelsiusShouldEqual212F" />
       </list>
     </recent_temporary>
   </component>
@@ -405,20 +396,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
           </folding>
         </state>
       </provider>
