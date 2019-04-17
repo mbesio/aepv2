@@ -26,6 +26,7 @@ public class Player {
 
     public Player and(Player other) {
         if (unit == Unit.PAPER && other.unit == Unit.ROCK) return new Player(Unit.PAPER);
+        else if (unit == Unit.SCISSORS && other.unit == Unit.PAPER) return new Player(Unit.SCISSORS);
         else return new Player(Unit.ROCK);
     }
 
