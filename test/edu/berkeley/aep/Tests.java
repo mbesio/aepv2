@@ -8,10 +8,8 @@ public class Tests {
 
     @Test
     public void rockShouldWinOverScissors() {
-        var rock = new Player(Rock);
-        var scissors = new Player(Scissors);
-
-        var bester = new Bester(rock, scissors);
-        assertEquals(rock, bester.best);
+        var rock = new Player(Unit.ROCK);
+        var scissors = new Player(Unit.SCISSORS);
+        assertEquals(rock.and(scissors), rock);
     }
 }
