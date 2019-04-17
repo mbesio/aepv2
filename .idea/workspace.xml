@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="" />
+    <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/ArithmeticQuantity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Chance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/ScaledQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/ChanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/RectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/SquareTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +24,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/QuantityTest.java">
+        <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -31,6 +53,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,8 +74,10 @@
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Quantity.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/AritmeticQuantity.java" />
-        <option value="$PROJECT_DIR$/src/edu/berkeley/aep/ScaledQuantity.java" />
         <option value="$PROJECT_DIR$/test/edu/berkeley/aep/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/aep/ScaledQuantity.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java" />
       </list>
     </option>
   </component>
@@ -65,19 +92,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="aep19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aep19" type="462c0819:PsiDirectoryNode" />
+              <item name="aep19v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aep19v3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aep19v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aep19v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aep19v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aep19v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aep19v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aep19v3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aep19v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aep19v3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="aep" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -85,8 +134,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552964782997" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019/aep2019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555538079151" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -109,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuantityTest">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -119,7 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +177,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.QuantityTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.oneHundredCelsiusShouldEqual212F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.oneHundredCelsiusShouldEqual212F" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +192,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.QuantityTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
       <option name="METHOD_NAME" value="oneHundredCelsiusShouldEqual212F" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.thirtyTwoFahrenheitShouldEqualZeroCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -159,14 +208,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.QuantityTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
       <option name="METHOD_NAME" value="thirtyTwoFahrenheitShouldEqualZeroCelsius" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.threeHundredKelvinShouldEqual26Point85Celsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.threeHundredKelvinShouldEqual26Point85Celsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -175,14 +224,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.QuantityTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
       <option name="METHOD_NAME" value="threeHundredKelvinShouldEqual26Point85Celsius" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.threeHundredKelvinShouldEqualTwentySevenCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -191,7 +240,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.QuantityTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
       <option name="METHOD_NAME" value="threeHundredKelvinShouldEqualTwentySevenCelsius" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -200,19 +249,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.QuantityTest.oneHundredCelsiusShouldEqual212F" />
-      <item itemvalue="JUnit.QuantityTest.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
-      <item itemvalue="JUnit.QuantityTest.threeHundredKelvinShouldEqual26Point85Celsius" />
-      <item itemvalue="JUnit.QuantityTest.threeHundredKelvinShouldEqualTwentySevenCelsius" />
-      <item itemvalue="JUnit.QuantityTest" />
+      <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.Tests.oneHundredCelsiusShouldEqual212F" />
+      <item itemvalue="JUnit.Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
+      <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
+      <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuantityTest" />
-        <item itemvalue="JUnit.QuantityTest.threeHundredKelvinShouldEqualTwentySevenCelsius" />
-        <item itemvalue="JUnit.QuantityTest.threeHundredKelvinShouldEqual26Point85Celsius" />
-        <item itemvalue="JUnit.QuantityTest.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
-        <item itemvalue="JUnit.QuantityTest.oneHundredCelsiusShouldEqual212F" />
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
+        <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
+        <item itemvalue="JUnit.Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
+        <item itemvalue="JUnit.Tests.oneHundredCelsiusShouldEqual212F" />
       </list>
     </recent_temporary>
   </component>
@@ -230,9 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityTest_oneTbspShouldEqualThreeTsp - 2019.03.06 at 14h 46m 49s.xml">
-      <configuration name="QuantityTest.oneTbspShouldEqualThreeTsp" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuantityTest_twoTbspShouldEqualOneOz - 2019.03.06 at 14h 47m 08s.xml">
       <configuration name="QuantityTest.twoTbspShouldEqualOneOz" configurationId="JUnit" />
     </history-entry>
@@ -260,11 +306,15 @@
     <history-entry file="QuantityTest - 2019.03.18 at 11h 11m 16s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QuantityTest - 2019.04.17 at 14h 17m 33s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19498383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20145631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,9 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="26" column="1" lean-forward="true" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -325,20 +372,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ChanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/VolumeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Volume.java" />
@@ -346,23 +384,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/ArithmeticQuantity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -370,36 +398,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/ScaledQuantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/QuantityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
           </folding>
         </state>
       </provider>
