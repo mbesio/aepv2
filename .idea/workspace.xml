@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aep19/edu/berkeley/aep/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aep19/edu/berkeley/aep/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -42,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -143,7 +137,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555542111093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555543969255" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -170,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Tests.paperShouldWinOverRock">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -195,6 +189,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.paperShouldWinOverRock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aep19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
+      <option name="METHOD_NAME" value="paperShouldWinOverRock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.rockShouldWinOverScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
@@ -206,22 +216,6 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
       <option name="METHOD_NAME" value="rockShouldWinOverScissors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aep19" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="thirtyTwoFahrenheitShouldEqualZeroCelsius" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,18 +256,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
       <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
       <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
       <item itemvalue="JUnit.Tests.rockShouldWinOverScissors" />
+      <item itemvalue="JUnit.Tests.paperShouldWinOverRock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.paperShouldWinOverRock" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.rockShouldWinOverScissors" />
         <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
         <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
-        <item itemvalue="JUnit.Tests.thirtyTwoFahrenheitShouldEqualZeroCelsius" />
       </list>
     </recent_temporary>
   </component>
@@ -424,17 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -447,8 +430,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
