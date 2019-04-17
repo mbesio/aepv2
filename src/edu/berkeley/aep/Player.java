@@ -24,7 +24,15 @@ public class Player {
 //    }
 
 
-    public Player and(Player other) { return new Player(Unit.ROCK);}
+//    public Player and(Player other) { return new Player(Unit.ROCK);}
+    public Player and(Player other) {
+        if (unit == Unit.PAPER && other.unit == Unit.ROCK) return new Player(Unit.PAPER);
+        else return new Player(Unit.ROCK);
+    }
+
+
+
+
 }
 
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="" />
+    <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="279">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,11 +29,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="279">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/RockPlayer.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/UnitEnum.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Bester.java" />
-        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" />
+        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" />
       </list>
     </option>
@@ -137,7 +142,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555543969255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555544697733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -164,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.paperShouldWinOverRock">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -263,8 +268,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.paperShouldWinOverRock" />
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.paperShouldWinOverRock" />
         <item itemvalue="JUnit.Tests.rockShouldWinOverScissors" />
         <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqualTwentySevenCelsius" />
         <item itemvalue="JUnit.Tests.threeHundredKelvinShouldEqual26Point85Celsius" />
@@ -285,9 +290,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityTest_shouldNotBeAbleToCompareTeaspoonsAndFeet - 2019.03.06 at 14h 47m 37s.xml">
-      <configuration name="QuantityTest.shouldNotBeAbleToCompareTeaspoonsAndFeet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuantityTest_twoInchesPlusTwoInchesShouldEqualFourInches - 2019.03.06 at 14h 47m 52s.xml">
       <configuration name="QuantityTest.twoInchesPlusTwoInchesShouldEqualFourInches" configurationId="JUnit" />
     </history-entry>
@@ -314,6 +316,9 @@
     </history-entry>
     <history-entry file="Tests - 2019.04.17 at 16h 00m 38s.xml">
       <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_paperShouldWinOverRock - 2019.04.17 at 16h 32m 54s.xml">
+      <configuration name="Tests.paperShouldWinOverRock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -420,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="279">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -437,11 +442,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="279">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
           </folding>
         </state>
       </provider>
