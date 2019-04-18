@@ -21,18 +21,25 @@ public class Tests {
     }
 
     @Test
-    public void ScissorsShouldWinOverPaper() {
+    public void scissorsShouldWinOverPaper() {
         var scissors = new Player(Unit.SCISSORS);
         var paper = new Player(Unit.PAPER);
         assertEquals(scissors.and(paper), scissors);
     }
 
     @Test
-    public void PaperShouldLoseOverScissors() {
+    public void paperShouldLoseOverScissors() {
         var paper = new Player(Unit.PAPER);
         var scissors = new Player(Unit.SCISSORS);
         assertEquals(paper.and(scissors), scissors);
 
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void rockAndRockshouldReturnNoWinner() {
+        var rock1 = new Player(Unit.ROCK);
+        var rock2 = new Player(Unit.ROCK);
+        assertEquals(rock1.and(rock2), rock1.and(rock2));
     }
 
 }

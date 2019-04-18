@@ -1,6 +1,6 @@
 package edu.berkeley.aep;
 
-// Understands a RPS player that always plays rock
+// Understands a RPS player
 
 public class Player {
     private final Unit unit;
@@ -28,8 +28,6 @@ public class Player {
             return new Player(Unit.SCISSORS);
         else return new Player(Unit.ROCK);
     }
-
-
 
 
 }
