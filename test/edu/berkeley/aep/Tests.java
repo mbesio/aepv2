@@ -36,17 +36,24 @@ public class Tests {
     }
 
     @Test(expected = RuntimeException.class)
-    public void rockAndRockshouldReturnNoWinner() {
+    public void rockAndRockShouldReturnNoWinner() {
         var rock1 = new Player(Unit.ROCK);
         var rock2 = new Player(Unit.ROCK);
         assertEquals(rock1.and(rock2), rock1.and(rock2));
     }
 
     @Test(expected = RuntimeException.class)
-    public void paperAndPapershouldReturnNoWinner() {
+    public void paperAndPaperShouldReturnNoWinner() {
         var paper1 = new Player(Unit.PAPER);
         var paper2 = new Player(Unit.PAPER);
         assertEquals(paper1.and(paper2), paper1.and(paper2));
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void scissorsAndScissorsShouldReturnNoWinner() {
+        var scissors1 = new Player(Unit.SCISSORS);
+        var scissors2 = new Player(Unit.SCISSORS);
+        assertEquals(scissors1.and(scissors2), scissors1.and(scissors2));
     }
 
 }

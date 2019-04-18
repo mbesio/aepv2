@@ -139,7 +139,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555564666530" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555564806981" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -166,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -239,7 +239,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.scissorsShouldLoseOverRock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.scissorsAndScissorsShouldReturnNoWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -249,7 +249,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="scissorsShouldLoseOverRock" />
+      <option name="METHOD_NAME" value="scissorsAndScissorsShouldReturnNoWinner" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,18 +258,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
       <item itemvalue="JUnit.Tests.PaperShouldLoseOverScissors" />
       <item itemvalue="JUnit.Tests.rockAndRockshouldReturnNoWinner" />
       <item itemvalue="JUnit.Tests.paperAndPapershouldReturnNoWinner" />
+      <item itemvalue="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.paperAndPapershouldReturnNoWinner" />
         <item itemvalue="JUnit.Tests.rockAndRockshouldReturnNoWinner" />
         <item itemvalue="JUnit.Tests.PaperShouldLoseOverScissors" />
-        <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
       </list>
     </recent_temporary>
   </component>
