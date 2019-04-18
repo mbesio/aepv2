@@ -26,6 +26,8 @@ public class Player {
         if (unit == Unit.PAPER && other.unit == Unit.ROCK) return new Player(Unit.PAPER);
         else if (unit == Unit.SCISSORS && other.unit == Unit.PAPER || unit == Unit.PAPER && other.unit == Unit.SCISSORS)
             return new Player(Unit.SCISSORS);
+        else if (unit ==Unit.ROCK && other.unit == Unit.ROCK)
+            throw new IllegalArgumentException("No winner");
         else return new Player(Unit.ROCK);
     }
 
