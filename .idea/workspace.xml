@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aep19/edu/berkeley/aep/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/aep19/edu/berkeley/aep/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/aep19/edu/berkeley/aep/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,23 +32,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="93">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -81,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/UnitEnum.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Bester.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/aep/randomPlayer.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" />
         <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
       </list>
@@ -97,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -131,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +136,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555565613919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555706780928" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -166,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -191,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.paperAndPapershouldReturnNoWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -201,23 +198,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="paperAndPapershouldReturnNoWinner" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.rockAndRockshouldReturnNoWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aep19" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="rockAndRockshouldReturnNoWinner" />
+      <option name="METHOD_NAME" value="aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,21 +236,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.scissorsShouldLoseOverRock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aep19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
+      <option name="METHOD_NAME" value="scissorsShouldLoseOverRock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.Tests.rockAndRockshouldReturnNoWinner" />
-      <item itemvalue="JUnit.Tests.paperAndPapershouldReturnNoWinner" />
       <item itemvalue="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner" />
       <item itemvalue="JUnit.Tests.rockShouldLoseOverPaper" />
+      <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
+      <item itemvalue="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" />
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
         <item itemvalue="JUnit.Tests.rockShouldLoseOverPaper" />
         <item itemvalue="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner" />
-        <item itemvalue="JUnit.Tests.paperAndPapershouldReturnNoWinner" />
-        <item itemvalue="JUnit.Tests.rockAndRockshouldReturnNoWinner" />
       </list>
     </recent_temporary>
   </component>
@@ -287,24 +284,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2019.04.17 at 17h 10m 32s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_rockAndRockshouldReturnNoWinner - 2019.04.17 at 21h 58m 21s.xml">
-      <configuration name="Tests.rockAndRockshouldReturnNoWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_rockAndRockshouldReturnNoWinner - 2019.04.17 at 22h 04m 37s.xml">
-      <configuration name="Tests.rockAndRockshouldReturnNoWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2019.04.17 at 22h 04m 47s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_paperAndPapershouldReturnNoWinner - 2019.04.17 at 22h 13m 29s.xml">
-      <configuration name="Tests.paperAndPapershouldReturnNoWinner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_paperAndPapershouldReturnNoWinner - 2019.04.17 at 22h 17m 37s.xml">
-      <configuration name="Tests.paperAndPapershouldReturnNoWinner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2019.04.17 at 22h 17m 43s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -317,12 +296,30 @@
     <history-entry file="Tests - 2019.04.17 at 22h 22m 38s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests_rockShouldLoseOverPaper - 2019.04.17 at 22h 30m 31s.xml">
+      <configuration name="Tests.rockShouldLoseOverPaper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_rockShouldLoseOverPaper - 2019.04.17 at 22h 33m 28s.xml">
+      <configuration name="Tests.rockShouldLoseOverPaper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2019.04.17 at 22h 33m 36s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_scissorsShouldLoseOverRock - 2019.04.17 at 22h 35m 48s.xml">
+      <configuration name="Tests.scissorsShouldLoseOverRock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2019.04.17 at 22h 35m 54s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_aRandomPlayerShouldReturnEitherRockOrPaperOrScissors - 2019.04.19 at 13h 33m 45s.xml">
+      <configuration name="Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20145631" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19902913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,7 +328,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -339,7 +336,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" visible="true" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -355,93 +352,37 @@
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="1" lean-forward="true" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ChanceTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/RectangleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Square.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Rectangle.java" />
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/SquareTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/ChanceTest.java" />
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/VolumeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Volume.java" />
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Chance.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Chance.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/ArithmeticQuantity.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Bester.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/randomPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/ArithmeticQuantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Bester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="93">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

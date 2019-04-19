@@ -63,4 +63,10 @@ public class Tests {
         assertEquals(rock.and(paper), paper);
     }
 
-}
+    @Test
+    public void scissorsShouldLoseOverRock() {
+        var scissors = new Player(Unit.SCISSORS);
+        var rock = new Player(Unit.ROCK);
+        assertEquals(scissors.and(rock), rock);
+    }
+

@@ -2,12 +2,15 @@ package edu.berkeley.aep;
 
 // Understands a RPS player
 
+import java.util.Random;
+
 public class Player {
     private final Unit unit;
 
     public Player(Unit unit) {
         this.unit = unit;
     }
+
 
     @Override
     public boolean equals(Object other) {
