@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec07a0c3-05b6-418a-ae81-7805b8d03d6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aep19/edu/berkeley/aep/Player.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/aep19/edu/berkeley/aep/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/aep19/edu/berkeley/aep/Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" afterDir="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="153">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Bester.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/randomPlayer.java" />
+        <option value="$PROJECT_DIR$/test/edu/berkeley/aep/randomPlayer.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/aep/Player.java" />
         <option value="$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java" />
       </list>
@@ -133,11 +133,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="aep19v3" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555706780928" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555709287769" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -163,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Rectangle" />
       <module name="aep19" />
@@ -204,7 +208,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.rockShouldLoseOverPaper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.countWhoWins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep19" />
       <extension name="coverage">
         <pattern>
@@ -214,23 +218,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="rockShouldLoseOverPaper" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.scissorsAndScissorsShouldReturnNoWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aep19" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
-      <option name="METHOD_NAME" value="scissorsAndScissorsShouldReturnNoWinner" />
+      <option name="METHOD_NAME" value="countWhoWins" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,21 +240,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.tenGamesOfRockVsScissorsGive10RockWins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aep19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.aep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.Tests" />
+      <option name="METHOD_NAME" value="tenGamesOfRockVsScissorsGive10RockWins" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner" />
-      <item itemvalue="JUnit.Tests.rockShouldLoseOverPaper" />
-      <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
       <item itemvalue="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" />
+      <item itemvalue="JUnit.Tests.countWhoWins" />
+      <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
+      <item itemvalue="JUnit.Tests.tenGamesOfRockVsScissorsGive10RockWins" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" />
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.countWhoWins" />
+        <item itemvalue="JUnit.Tests.tenGamesOfRockVsScissorsGive10RockWins" />
+        <item itemvalue="JUnit.Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" />
         <item itemvalue="JUnit.Tests.scissorsShouldLoseOverRock" />
-        <item itemvalue="JUnit.Tests.rockShouldLoseOverPaper" />
-        <item itemvalue="JUnit.Tests.scissorsAndScissorsShouldReturnNoWinner" />
       </list>
     </recent_temporary>
   </component>
@@ -284,12 +288,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2019.04.17 at 22h 17m 43s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_scissorsAndScissorsShouldReturnNoWinner - 2019.04.17 at 22h 20m 10s.xml">
-      <configuration name="Tests.scissorsAndScissorsShouldReturnNoWinner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests_scissorsAndScissorsShouldReturnNoWinner - 2019.04.17 at 22h 22m 31s.xml">
       <configuration name="Tests.scissorsAndScissorsShouldReturnNoWinner" configurationId="JUnit" />
     </history-entry>
@@ -314,6 +312,12 @@
     <history-entry file="Tests_aRandomPlayerShouldReturnEitherRockOrPaperOrScissors - 2019.04.19 at 13h 33m 45s.xml">
       <configuration name="Tests.aRandomPlayerShouldReturnEitherRockOrPaperOrScissors" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests_tenGamesOfRockVsScissorsGive10RockWins - 2019.04.19 at 14h 00m 20s.xml">
+      <configuration name="Tests.tenGamesOfRockVsScissorsGive10RockWins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2019.04.19 at 14h 27m 58s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
@@ -336,7 +340,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,20 +373,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/randomPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-end-line="3" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Unit.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/aep/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/berkeley/aep/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

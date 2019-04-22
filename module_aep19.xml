@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_aep19" default="compile.module.aep19">
+  <dirname property="module.aep19.basedir" file="${ant.file.module_aep19}"/>
+  
+  <property name="module.jdk.home.aep19" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.aep19" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.aep19" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.aep19" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="aep19.output.dir" value="${module.aep19.basedir}/out/production/aep19"/>
+  <property name="aep19.testoutput.dir" value="${module.aep19.basedir}/out/test/aep19"/>
+  
+  <path id="aep19.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="aep19.module.production.classpath">
+    <path refid="${module.jdk.classpath.aep19}"/>
+  </path>
+  
+  <path id="aep19.runtime.production.module.classpath">
+    <pathelement location="${aep19.output.dir}"/>
+  </path>
+  
+  <path id="aep19.module.classpath">
+    <path refid="${module.jdk.classpath.aep19}"/>
+    <pathelement location="${aep19.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  </path>
+  
+  <path id="aep19.runtime.module.classpath">
+    <pathelement location="${aep19.testoutput.dir}"/>
+    <pathelement location="${aep19.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/junit/junit/4.12/junit-4.12.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.aep19">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.aep19">
+    <patternset refid="excluded.from.module.aep19"/>
+  </patternset>
+  
+  <path id="aep19.module.sourcepath">
+    <dirset dir="${module.aep19.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <path id="aep19.module.test.sourcepath">
+    <dirset dir="${module.aep19.basedir}">
+      <include name="test"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.aep19" depends="compile.module.aep19.production,compile.module.aep19.tests" description="Compile module aep19"/>
+  
+  <target name="compile.module.aep19.production" depends="register.custom.compilers" description="Compile module aep19; production classes">
+    <mkdir dir="${aep19.output.dir}"/>
+    <javac2 destdir="${aep19.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.aep19}/javac">
+      <compilerarg line="${compiler.args.aep19}"/>
+      <bootclasspath refid="aep19.module.bootclasspath"/>
+      <classpath refid="aep19.module.production.classpath"/>
+      <src refid="aep19.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.aep19"/>
+    </javac2>
+    
+    <copy todir="${aep19.output.dir}">
+      <fileset dir="${module.aep19.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.aep19.tests" depends="register.custom.compilers,compile.module.aep19.production" description="compile module aep19; test classes" unless="skip.tests">
+    <mkdir dir="${aep19.testoutput.dir}"/>
+    <javac2 destdir="${aep19.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.aep19}/javac">
+      <compilerarg line="${compiler.args.aep19}"/>
+      <bootclasspath refid="aep19.module.bootclasspath"/>
+      <classpath refid="aep19.module.classpath"/>
+      <src refid="aep19.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.aep19"/>
+    </javac2>
+    
+    <copy todir="${aep19.testoutput.dir}">
+      <fileset dir="${module.aep19.basedir}/test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.aep19" description="cleanup module">
+    <delete dir="${aep19.output.dir}"/>
+    <delete dir="${aep19.testoutput.dir}"/>
+  </target>
+</project>

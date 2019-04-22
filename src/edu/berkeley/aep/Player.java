@@ -11,7 +11,6 @@ public class Player {
         this.unit = unit;
     }
 
-
     @Override
     public boolean equals(Object other) {
         if (other == this) return true;
@@ -34,6 +33,13 @@ public class Player {
             throw new IllegalArgumentException("No winner");
         else return new Player(Unit.ROCK);
     }
+
+    // What I am doing is probably wrong as I am exposing the data structure
+    public int tenGames(Player other) {
+
+        return 0;
+    }
+
 
 
 }

@@ -70,3 +70,5 @@ public class Tests {
         assertEquals(scissors.and(rock), rock);
     }
 
+}
+
