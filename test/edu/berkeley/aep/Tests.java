@@ -35,6 +35,14 @@ public class Tests {
 
     }
 
+    @Test(expected = RuntimeException.class)
+    public void rockAndRockShouldReturnNoWinner() {
+        var rock1 = new Player(Unit.ROCK);
+        var rock2 = new Player(Unit.ROCK);
+        assertEquals(rock1.and(rock2), rock1.and(rock2));
+    }
+
+
 
 
 }
