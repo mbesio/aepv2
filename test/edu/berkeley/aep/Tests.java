@@ -42,6 +42,14 @@ public class Tests {
         assertEquals(rock1.and(rock2), rock1.and(rock2));
     }
 
+    @Test(expected = RuntimeException.class)
+    public void paperAndPaperShouldReturnNoWinner() {
+        var paper1 = new Player(Unit.PAPER);
+        var paper2 = new Player(Unit.PAPER);
+        assertEquals(paper1.and(paper2), paper1.and(paper2));
+    }
+
+
 
 
 
