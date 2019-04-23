@@ -12,63 +12,6 @@ public class Tests {
         var scissors = new Player(Unit.SCISSORS);
         assertEquals(rock.and(scissors), rock);
     }
-
-    @Test
-    public void paperShouldWinOverRock() {
-        var paper = new Player(Unit.PAPER);
-        var rock = new Player(Unit.ROCK);
-        assertEquals(paper.and(rock), paper);
-    }
-
-    @Test
-    public void scissorsShouldWinOverPaper() {
-        var scissors = new Player(Unit.SCISSORS);
-        var paper = new Player(Unit.PAPER);
-        assertEquals(scissors.and(paper), scissors);
-    }
-
-    @Test
-    public void paperShouldLoseOverScissors() {
-        var paper = new Player(Unit.PAPER);
-        var scissors = new Player(Unit.SCISSORS);
-        assertEquals(paper.and(scissors), scissors);
-
-    }
-
-    @Test(expected = RuntimeException.class)
-    public void rockAndRockShouldReturnNoWinner() {
-        var rock1 = new Player(Unit.ROCK);
-        var rock2 = new Player(Unit.ROCK);
-        assertEquals(rock1.and(rock2), rock1.and(rock2));
-    }
-
-    @Test(expected = RuntimeException.class)
-    public void paperAndPaperShouldReturnNoWinner() {
-        var paper1 = new Player(Unit.PAPER);
-        var paper2 = new Player(Unit.PAPER);
-        assertEquals(paper1.and(paper2), paper1.and(paper2));
-    }
-
-    @Test(expected = RuntimeException.class)
-    public void scissorsAndScissorsShouldReturnNoWinner() {
-        var scissors1 = new Player(Unit.SCISSORS);
-        var scissors2 = new Player(Unit.SCISSORS);
-        assertEquals(scissors1.and(scissors2), scissors1.and(scissors2));
-    }
-
-    @Test
-    public void rockShouldLoseOverPaper() {
-        var rock = new Player(Unit.ROCK);
-        var paper = new Player(Unit.PAPER);
-        assertEquals(rock.and(paper), paper);
-    }
-
-    @Test
-    public void scissorsShouldLoseOverRock() {
-        var scissors = new Player(Unit.SCISSORS);
-        var rock = new Player(Unit.ROCK);
-        assertEquals(scissors.and(rock), rock);
-    }
-
+    
 }
 
