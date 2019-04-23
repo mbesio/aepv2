@@ -70,6 +70,13 @@ public class Tests {
         assertEquals(scissors.and(rock), rock);
     }
 
+    @Test
+    public void checkAgainRockShouldWinOverScissors() {
+        var rock = new Player(Unit.ROCK);
+        var scissors = new Player(Unit.SCISSORS);
+        assertEquals(rock.and(scissors), rock);
+    }
+
 
 
 
