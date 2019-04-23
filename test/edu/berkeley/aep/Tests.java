@@ -49,6 +49,14 @@ public class Tests {
         assertEquals(paper1.and(paper2), paper1.and(paper2));
     }
 
+    @Test(expected = RuntimeException.class)
+    public void scissorsAndScissorsShouldReturnNoWinner() {
+        var scissors1 = new Player(Unit.SCISSORS);
+        var scissors2 = new Player(Unit.SCISSORS);
+        assertEquals(scissors1.and(scissors2), scissors1.and(scissors2));
+    }
+
+
 
 
 
